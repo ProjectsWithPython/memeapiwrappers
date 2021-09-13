@@ -1,0 +1,4 @@
+pyproject.toml
+setup.cfg
+dist
+src/memeapiwrappers.egg-info
