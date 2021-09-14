@@ -23,7 +23,7 @@
 
 ```py
 import asyncio
-from memeapiwrappers.meme.main import async_get_meme
+from meme.main import async_get_meme
 async def main():
     very_funny_meme = await async_get_meme() # Two optional args
     print(very_funny_meme)
@@ -38,7 +38,7 @@ loop.run_until_complete(main())
 
 ```py
 import asyncio
-from memeapiwrappers.chucknorris.main import async_get_chuck_norris_joke
+from chucknorris.main import async_get_chuck_norris_joke
 async def main():
     very_funny_meme = await async_get_chuck_norris_joke() # Two optional args
     print(very_funny_meme)
@@ -52,11 +52,11 @@ loop.run_until_complete(main())
 
 
 ```py
-from memeapiwrappers.meme.main import get_meme
+from meme.main import get_meme
 print(get_meme()) # Optional args
 ```
 
 ```py
-from memeapiwrappers.chucknorris.main import get_chuck_norris_joke
+from chucknorris.main import get_chuck_norris_joke
 print(get_chuck_norris_joke()) # Optional args
 ```
